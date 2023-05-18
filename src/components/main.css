@@ -1,0 +1,26 @@
+.main{
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+}
+.main-content{
+    height: 100%;
+    width: 80%;
+    padding:1rem;
+    border-style: groove;
+    background-color: antiquewhite;
+}
+.main-aside{
+    height: 100%;
+    width: 30%;
+    background-color: brown;
+}
+.aside{
+    border: 1px solid rgba(22, 21, 21, 0.623);
+    width: 20%;
+    background-color: blueviolet;
+}
+.blog-aside{
+    padding: 42px;
+    border: 1px solid rgba(22, 21, 21, 0.623);
+}
