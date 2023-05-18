@@ -38,7 +38,8 @@ function Main() {
             <div className="blog" key={index}>
               <h3>{blog.title}</h3>
               <p>{blog.content}</p>
-              <Link style={{ textDecoration: 'none' }}to={blog.to}> More</Link>
+              <Link style={{ textDecoration: 'none' }}to={blog.to}> <button style={{backgroundColor: 'black', color: 'white', padding: '10px', borderRadius: '5px', border: 'none'}}>Read more</button></Link>
+              
             </div>
           );
         })}

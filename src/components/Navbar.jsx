@@ -1,9 +1,11 @@
 import './navbar.css'
+import viteLogo from '/vite.svg'
+
 function Navbar() {
     return (
         <div className='navbar'>
-
-           <p class="block">Cloud Is Here You Can Not Avoid it</p> 
+            <img src={viteLogo} className="logo" alt="Vite logo" />
+           <p>Delphi</p> 
            
             </div>
     )
