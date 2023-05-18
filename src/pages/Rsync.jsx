@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Training() {
+function Rsync() {
   return (
     <div style={{height:"100vh"}}><h1>Rsync</h1>
         <p>Rsync is an essential tool when it comes to file-level operations. It is a flexible tool that will keep your directories in sync, minimize cost of transferring whole file changes, exclud
@@ -9,4 +9,4 @@ function Training() {
   )
 }
 
-export default Training
+export default Rsync

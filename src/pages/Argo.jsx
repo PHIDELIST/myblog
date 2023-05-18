@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Fullstack() {
+function Argo() {
   return (
     <div style={{height:"100vh"}}><h1>Argo</h1>
         <p>In accordance with the yearly support KEP, the Kubernetes Community will support active patch release series for a period of roughly fourteen (14) months.
@@ -17,4 +17,4 @@ CVEs under the advisement of the Securit</p></div>
   )
 }
 
-export default Fullstack
+export default Argo

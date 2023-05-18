@@ -1,6 +1,6 @@
 import React from 'react'
 
-function TheJitu() {
+function Ssl() {
   return (
     <div style={{height:"100vh"}}><h1>The SSL Encryption</h1>
       <p>
@@ -12,4 +12,4 @@ But sometimes you just don't want to incur any costs with this. Well, are there 
   )
 }
 
-export default TheJitu
+export default Ssl

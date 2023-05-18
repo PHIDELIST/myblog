@@ -1,9 +1,9 @@
 import './main.css';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
-import TheJitu from '../pages/TheJitu';
-import Fullstack from '../pages/Fullstack';
-import Training from '../pages/Training';
-import Application from '../pages/Application';
+import Ssl from '../pages/Ssl';
+import Argo from '../pages/Argo';
+import Rsync from '../pages/Rsync';
+import Nginx from '../pages/Nginx';
 import Notfound from '../pages/Notfound';
 
 function Main() {
@@ -11,22 +11,22 @@ function Main() {
     {
       title: 'Above the cloud',
       content: 'Rsync stands for . It is a Linux-based tool that can be used to sync files between remote and/or local servers.',
-      to: '/theJitu',
+      to: '/ssl',
     },
     {
       title: 'Argo ',
-      content: 'Software developers at The Jitu are well equipped and have good skills in full-stack development',
-      to: '/fullstack',
+      content: 'In accordance with the yearly support KEP, the Kubernetes Community will support active patch release series for a period of roughly fourteen',
+      to: '/argo',
     },
     {
-      title: 'Kube',
-      content: 'Kubernetes is an open source container orchestration engine for automating deployment, scaling, and management of containerized applications. The open source project is hosted by the Cloud Native Computing Foundation (CNCF).',
-      to: '/training',
+      title: 'Rsync',
+      content: 'Rsync is an essential tool when it comes to file-level operations. It is a flexible tool that will keep your directories in syncF.',
+      to: '/rsync',
     },
     {
-      title: 'CORS',
+      title: 'Nginx',
       content: 'Allow CORS: Access-Control-Allow-Origin lets you easily perform cross-domain Ajax requests in web applications.',
-      to: '/application',
+      to: '/nginx',
     },
   ];
 
@@ -61,10 +61,10 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Main />} />
-        <Route path="/theJitu" element={<TheJitu />} />
-        <Route path="/fullstack" element={<Fullstack />} />
-        <Route path="/training" element={<Training />} />
-        <Route path="/application" element={<Application />} />
+        <Route path="/ssl" element={<Ssl />} />
+        <Route path="/argo" element={<Argo />} />
+        <Route path="/rsync" element={<Rsync />} />
+        <Route path="/nginx" element={<Nginx />} />
         <Route path="*" element={<Notfound />} />
       </Routes>
     </Router>
